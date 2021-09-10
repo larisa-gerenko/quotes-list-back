@@ -12,7 +12,7 @@ class QuotesController extends Controller
     {
         $allQuotes = Quote::all();
 
-        return response()->json($allQgit inituotes);
+        return response()->json($allQuotes);
     }
 
     public function  add(Request $request) {
